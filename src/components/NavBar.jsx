@@ -63,7 +63,6 @@ const NavBar = (props) => {
         }
         setResponsiveness()
         window.addEventListener('resize', () => setResponsiveness())
-        console.log('hhhh')
     }, [])
 
     const dispDesktop = () => {

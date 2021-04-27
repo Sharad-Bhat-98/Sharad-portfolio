@@ -3,7 +3,6 @@ import Card from '@material-ui/core/Card'
 import CardActionArea from '@material-ui/core/CardActionArea'
 import CardActions from '@material-ui/core/CardActions'
 import CardContent from '@material-ui/core/CardContent'
-import CardMedia from '@material-ui/core/CardMedia'
 import Typography from '@material-ui/core/Typography'
 import MongoDB from '../images/mongodb.svg'
 import Express from '../images/expressjs.svg'
@@ -59,7 +58,7 @@ const ProjectCard = (props) => {
                                 >
                                     {e.description} <br></br>
                                 </Typography>
-                                <a> Link-{e.link}</a>
+                                <a href={e.link}> Link-{e.link}</a>
                             </CardContent>
                             <CardContent>
                                 <Typography>
