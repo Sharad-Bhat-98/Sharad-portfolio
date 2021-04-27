@@ -58,11 +58,12 @@ const NavBar = (props) => {
     useEffect(() => {
         const setResponsiveness = () => {
             return window.innerWidth < 900
-                ? setView({ ...view, mobileView: true })
-                : setView({ ...view, mobileView: false })
+                ? setView({ mobileView: true })
+                : setView({ mobileView: false })
         }
         setResponsiveness()
         window.addEventListener('resize', () => setResponsiveness())
+        console.log('hhhh')
     }, [])
 
     const dispDesktop = () => {
