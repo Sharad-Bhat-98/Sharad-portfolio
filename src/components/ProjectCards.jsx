@@ -24,6 +24,11 @@ const projectss = [
         description: 'a simple website using Redux ',
         link: 'https://kind-bardeen-289464.netlify.app/',
     },
+    {
+        name: 'Anime Website',
+        description: 'Anime website built using jikan API and react',
+        link: 'https://sleepy-austin-bd2ff9.netlify.app/',
+    },
 ]
 
 const ProjectCard = (props) => {
